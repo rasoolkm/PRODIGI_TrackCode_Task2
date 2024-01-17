@@ -1,0 +1,52 @@
+/* Style the stopwatch container */
+.stopwatch {
+  position: relative;
+  margin: 60px auto;
+  width: 300px;
+  height: 300px;
+  border: 10px solid rgb(0, 0, 0);
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+}
+
+/* Style the display of the stopwatch */
+.display {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Arial, sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: rgb(214, 0, 85);
+}
+
+/* Style the buttons of the stopwatch */
+.button {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border: none;
+  border-radius: 52%;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Position the buttons of the stopwatch */
+.start {
+  bottom: 10px;
+  left: 10px;
+  background-color: green;
+}
+
+.stop {
+  bottom: 10px;
+  right: 10px;
+  background-color: red;
+}
+
+.reset {
+  top: 0.2px;
+  left: 110px;
+  background-color: yellow;
+}
